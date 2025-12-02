@@ -187,15 +187,15 @@ for (const key in someone) {
 // for....of loops
 // loops into Arrays
 // syntax: for (const variable of array){}
-let fruits = ["mango", "orange", "pawpaw", "guava"];
-for (const fruit of fruits) {
-  document.body.innerHTML += `<h2>I like ${fruit}</h2>`;
-}
+// let fruits = ["mango", "orange", "pawpaw", "guava"];
+// for (const fruit of fruits) {
+//   document.body.innerHTML += `<h2>I like ${fruit}</h2>`;
+// }
 // for each loop
 // syntax: array . for each function(current value,index,array)
-fruits.forEach(function (fruit, index) {
-  document.innerHTML += `${fruit}, number ${index}is the best`;
-});
+// fruits.forEach(function (fruit, index) {
+//   document.innerHTML += `${fruit}, number ${index}is the best`;
+// });
 // arrow Functions
 // syntax: () =>{}
 const newFunc = (a, b) => {
